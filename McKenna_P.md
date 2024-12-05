@@ -1,7 +1,7 @@
-# Saccharomyces cerevisiae MDH1
+# Human Mitochondrial MDH2
 
-# Uniprot ID: P17505
-# Variation: phosphorylation of S177 (pS160 in structure)
+# Uniprot ID: P40926
+# Variation: phosphorylation of Y80 (pY56 in structure)
 
 
 
@@ -9,18 +9,18 @@
 
 Serine 177 of yeast MDH1 was identified as a post-translationally modified site by [Reinders and coworkers](https://pubmed.ncbi.nlm.nih.gov/17761666/) in 2007. The study identified proteins with a role in the assembly of ATP synthase and energy metabolism.  This modification site is not conserved in human MDH2 [(P40926)](https://www.uniprot.org/uniprotkb/P40926/entry) 
 and there are no functional studies of the role of this site in yeast metabolism. 
-*Entry started 10/21/2024 CEB*
 
-# Comparison of MDH1 models and phospho modified MDH1
+# Comparison of MDH2 models and phospho modified MDH2
 
-1. Alignment of MDH1, MDH1 with phosphoS 177 (orange), and S177D (magenta)
-![Alignment of MDH1, MDH1 with phosphoS 177, and S177D](images/align.png){: width = "200px"}
+1. Alignment of MDH2 (green), MDH2 with phosphoY 80 (red), and Y80D (blue)
+<img width="800" alt="Align" src="https://github.com/user-attachments/assets/c46cadd6-4bf9-41a8-9479-c76dac0feb97">
 
 
-2. Modification site alignment within MDH1
-![alt text](images/site.png)
+2. Modification site alignment within MDH2
+<img width="556" alt="Mod Site" src="https://github.com/user-attachments/assets/b001b7a3-4783-4fc7-a8af-3adb4d3df9dd">
 
-The modification site is near to R174 and E178 and could make ionic or hydrogen bonding interactions with both of those side chains when modified. 
+
+There are numerous instances of weak interactions around the K54, D64, and T30 amino acids. These side chains contain instances of hydrogen and ionic bonding interactions. 
 
 ## Effect of the sequence variant and PTM on MDH dynamics
 
