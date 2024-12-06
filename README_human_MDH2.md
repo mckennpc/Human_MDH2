@@ -7,8 +7,7 @@
 
 ## Description
 
-Serine 177 of yeast MDH1 was identified as a post-translationally modified site by [Reinders and coworkers](https://pubmed.ncbi.nlm.nih.gov/17761666/) in 2007. The study identified proteins with a role in the assembly of ATP synthase and energy metabolism.  This modification site is not conserved in human MDH2 [(P40926)](https://www.uniprot.org/uniprotkb/P40926/entry) 
-and there are no functional studies of the role of this site in yeast metabolism. 
+Phosphorylation of Tyrosine is a modified residue of large scale data by [Chi V. Dang] (https://www.science.org/doi/10.1126/scisignal.297pe75) in 2009. The study suggests that the receptor tyrosine directly phospohrylates pyruvate kinase resulting in catabolosis of lactate by lactate dehydrogenase in human MDH2 [(P40926)](https://www.uniprot.org/uniprotkb/P40926/entry) 
 
 # Comparison of MDH2 models and phospho modified MDH2
 
@@ -34,9 +33,10 @@ After simulation, the overall protein structures are similar as well as the area
 ![alt text](images/md_site.png)
 
 ### Comparison of the enzyme dynamics
-After simulation, the dynamics as described by the root mean square fluctuation (RMSF) value were compared. In the plot, there are differences between the unmodified (purple) and S177D (green) around amino acids 400 and 500. These sites are loops bordering the active site. The difference around residue 400 is the active site loop which is key for binding the carboxylic acid substrate. The vertical line indicates the end of one subunit and the beginning of the next subunit of the MDH1 dimer.
+After simulation, the dynamics as described by the root mean square fluctuation (RMSF) value were compared. In the plot, there are very little differences between the unmodified (orange) and Y80D (blue) around amino acids 400 and 500. These sites are loops bordering the active site. The difference around residue 400 is the active site loop which is key for binding the carboxylic acid substrate. The vertical line indicates the end of one subunit and the beginning of the next subunit of the MDH1 dimer.
 
-![alt text](images/rmsf_compare.png)
+<img width="653" alt="rmsf" src="https://github.com/user-attachments/assets/0b942389-aaee-4705-9f1b-2adb15d393aa">
+
 
 The loops sites are shown below in blue with stick representations. The upper grouping is the active site loop. The yellow ellipse shows the approximate bind sites of the carboxylic acid and NAD+ substrates.
 
