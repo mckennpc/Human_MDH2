@@ -66,7 +66,8 @@ The RMSD PhophoY80 and Y80D MDH1 was 0.18 Å. The overall structures are similar
 <img width="251" alt="image" src="https://github.com/user-attachments/assets/38e992cc-6335-42bd-ba62-049462950455">
 
 ## Colab Notebook Links
-
+Step 1:
+https://github.com/mckennpc/Human_MDH2/blob/b3ce1c4f54f84cd87cfc2ab612c5123a95a937e6/MD_simulation_Step1.ipynb
 Step 2:
 https://github.com/mckennpc/Human_MDH2/blob/1fe48fc49b7aedfcd3d813ddc867a7c71ed9eeb5/mdanalysis_colab_Step2.ipynb
 
