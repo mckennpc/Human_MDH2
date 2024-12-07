@@ -18,48 +18,60 @@ Phosphorylation of Tyrosine is a modified residue of large scale data by [Chi V.
 2. Modification site alignment within MDH2
 <img width="556" alt="Mod Site" src="https://github.com/user-attachments/assets/b001b7a3-4783-4fc7-a8af-3adb4d3df9dd">
 
+3. Weak interactions among unmodified, variant, and mimic
+<img width="284" alt="image" src="https://github.com/user-attachments/assets/983b2576-c532-4139-b920-3cf2b2e91ef1">
 
 There are numerous instances of weak interactions around the K54, D64, and T30 amino acids. These side chains contain instances of hydrogen and ionic bonding interactions. 
 
 ## Effect of the sequence variant and PTM on MDH dynamics
+4. Binding sites (black) and active site (pink)
+<img width="296" alt="image" src="https://github.com/user-attachments/assets/9b983580-32f5-4fed-bfb8-c2d88f662aa0">
 
-The RMSD of the final frame from MD simulations of MDH1 and MDHS177D was 0.76 Å. The unmodified MDH1 is shown in green while the modified form is shown in purple. 
-![alt text](images/md_align.png)
-
-
-After simulation, the overall protein structures are similar as well as the area surrounding the modification sites. A solvent sodium ion has moved close and is forming an ionic interaction with the D in position 177. D177 also is making contact with R174. Neither of these interactions are observed in the unmodified enzyme.
+The RMSD of original AF3 and PTM shows had an RMSD of 0.16 Å. The original AF3 and mimic structures had an RMSD of 0.23 Å. Values determine these structures are very similar in their spatial arrangment.
 
 
-![alt text](images/md_site.png)
+5. Original MDH2 (green) and mimic (orange)
+<img width="364" alt="image" src="https://github.com/user-attachments/assets/c2b5d1e6-e048-4a2a-bbd9-561c718dbfef">
+The mimic is showing interactions between K54 and L31 while the original MDH2 only shows interactions with L31. The molecules have slightly different weak interactions.
+
+
+
+6. Potential chloride ion replacing K54
+<img width="250" alt="image" src="https://github.com/user-attachments/assets/3ed94a14-ef8e-4bcd-97b5-c948a1b215ff">
 
 ### Comparison of the enzyme dynamics
-After simulation, the dynamics as described by the root mean square fluctuation (RMSF) value were compared. In the plot, there are very little differences between the unmodified (orange) and Y80D (blue) around amino acids 400 and 500. These sites are loops bordering the active site. The difference around residue 400 is the active site loop which is key for binding the carboxylic acid substrate. The vertical line indicates the end of one subunit and the beginning of the next subunit of the MDH1 dimer.
+THe RMSF values for both MDH2 original and mimic vary higly. The mimic is more dynamic and able to change conformation to perform energy changes. Before the phosphorylation of Tyrosine there was no peak around amino acid 80. The phosphorylation of Tyrosine was able to increase the structures overall flexibility as there are numerous other peaks when compared to the original. Many peaks located around 250, 400, and 475. Mimic and original were measured at 0.63 Å, mimic measured at 0.66 Å The vertical line indicates the end of one subunit and the beginning of the next subunit of the MDH1 dimer.
 
-<img width="653" alt="rmsf" src="https://github.com/user-attachments/assets/0b942389-aaee-4705-9f1b-2adb15d393aa">
+<img width="375" alt="image" src="https://github.com/user-attachments/assets/4a5805d1-d45b-4861-8c2e-7f4195992ef0">
+
+
+<img width="283" alt="image" src="https://github.com/user-attachments/assets/ef042e9d-2612-44d6-b426-32883bdc6417">
+D64 contained various flucutations in pKa. Aspartic acid is sensitive to electrostatic environments. Aspartic acid could be placed near a charged molecule. Normally aspartic acid would react similarly with water, water molecules were removed during the colab. 
 
 
 The loops sites are shown below in blue with stick representations. The upper grouping is the active site loop. The yellow ellipse shows the approximate bind sites of the carboxylic acid and NAD+ substrates.
 
-![alt text](images/loop_sites_active.png)
-
 
 ### Effect of modification on the pKa values
 
-Overall the modification did not affect the pKa values of the active site histidine. There are only minor differences in the spread of the data over the simulation which may be due to equilibration. 
-![alt text](images/pka_over_traj.png)
+Original in orange has a decreased overall pKa and the mimic has an increased overall pKa. His 176 is the active site for MDH2. Original has more difficulty deprotonating. Phosphorylation of Tyrosine within the mimic is increased compared to the original model.
+
+<img width="449" alt="image" src="https://github.com/user-attachments/assets/cc9cf9b2-d1bf-4815-adf3-a6a1148f8c9a">
+
 
 
 ## Comparison of the mimic and the authentic PTM
-The RMSD MDHS177D and phosphoS177 MDH1 was 0.48 Å. The overall structures are similar with no major differences in structure or position.
+The RMSD PhophoY80 and Y80D MDH1 was 0.18 Å. The overall structures are similar with no major differences in structure or position.
 
-![alt text](images/mod_compare.png)
+<img width="251" alt="image" src="https://github.com/user-attachments/assets/38e992cc-6335-42bd-ba62-049462950455">
+
 
 ## Authors
 
-Christopher E. Berndsen
+Philip C. McKenna
 
 ## Deposition Date
-10/21/2024
+10/6/2024
 
 ## License
 
@@ -76,4 +88,10 @@ This work is licensed under a
 
 ## References
 
-* Reinders, Jörg, et al. “Profiling Phosphoproteins of Yeast Mitochondria Reveals a Role of Phosphorylation in Assembly of the ATP Synthase.” Molecular & Cellular Proteomics: MCP, vol. 6, no. 11, Nov. 2007, pp. 1896–906. PubMed, https://doi.org/10.1074/mcp.M700098-MCP200.
+AlphaFold Server. https://alphafoldserver.com/ (accessed 2024-12-06).
+
+Dang, C. V. PKM2 Tyrosine Phosphorylation and Glutamine Metabolism Signal a Different View of the Warburg Effect. Science Signaling 2009, 2 (97). DOI:10.1126/scisignal.297pe75. 
+
+Sehnal, D.; Bittrich, S.; Deshpande, M.; Svobodová, R.; Berka, K.; Bazgier, V.; Velankar, S.; Burley, S. K.; Koča, J.; Rose, A. S. Mol* Viewer: Modern Web App for 3D Visualization and Analysis of Large Biomolecular Structures. Nucleic Acids Research 2021, 49 (W1), W431–W437. https://doi.org/10.1093/nar/gkab314.
+
+UniProt. https://www.uniprot.org/uniprotkb/P40926/entry (accessed 2024-12-06).
